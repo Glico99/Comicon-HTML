@@ -1,0 +1,49 @@
+#SfondoSezione1{
+  background: url("./media/batman.jpg");
+  background-size: contain;
+}
+#Sezione1 {
+  background: linear-gradient(180deg, transparent 0%, rgba(48, 52, 67, 1) 40%, rgba(30, 34, 50, 1) 100%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100cqi;
+  height: 200dvh;
+  z-index: 0;
+}
+
+#Vetrina1 {
+  z-index: 0;
+  block-size: 100%;
+  color: white;
+}
+
+#Vetrina1 h1{
+  color: var(--bianco);
+  font-size: 1em;
+  inline-size: 40cqi;
+  margin-inline-start: 20cqi;
+  margin-block-start: 250px;
+  font-size: 70px;
+  font-weight: 100;
+  font-size: 4em;
+}
+
+#Vetrina1 #Eventi{
+  margin-inline-start: 20cqi;
+  inline-size: 50cqi;
+  font-size: 3em;
+  font-weight: 400;
+  color: var(--bianco);
+  
+}
+
+#Vetrina1 #Eventi span:nth-child(odd){
+  color: var(--blu-scuro);
+  font-weight: 700;
+  -webkit-text-stroke: 1px var(--arancio);
+  transition: color 0.7s;
+}
+#Vetrina1 #Eventi span:nth-child(odd):hover{
+  color: var(--arancio);
+  cursor: pointer;
+}

@@ -1,0 +1,17 @@
+#NavBar #Prenota {
+  inline-size: 10cqi;
+  block-size: 40px;
+  font-weight: 900;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--arancio);
+  border: 3px solid black;
+  transition: border 0.2s ;
+  color: black;
+}
+
+#NavBar #Prenota:hover {
+  border: 2px solid var(--arancio);
+}

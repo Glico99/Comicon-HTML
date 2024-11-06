@@ -1,0 +1,19 @@
+@import url("./tastoPrenota.css");
+@import url("./navBar.css");
+@import url("./sezione1.css");
+
+:root{
+  --blu-scuro: rgb(30, 34, 50);
+  --arancio: rgb(217, 123, 89);
+  --bianco: rgb(255, 255, 255);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--blu-scuro);
+  width: 100dvw;
+  height: 200dvh;
+  font-family: sans-serif;
+  font-size: 22px;
+}

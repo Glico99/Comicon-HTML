@@ -1,0 +1,99 @@
+#NavBar {
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  block-size: 100px;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  font-size: 1em;
+}
+
+#NavBar a {
+  color: var(--bianco);
+  text-decoration: none;
+}
+
+#NavBar a:hover {
+  color: var(--arancio);
+}
+
+#NavBar svg {
+  block-size: 50px;
+  fill: var(--bianco);
+}
+
+#NavBar div:nth-child(2) {
+  margin-inline-start: 40cqi;
+  display: flex;
+  align-items: center;
+}
+
+#NavBar div:nth-child(2)>* {
+  display: inline;
+  margin-inline: 1cqi;
+  font-size: 1em;
+}
+
+#Aree{
+  font-size: 1em;
+}
+
+#Attività{
+  font-size: 1em;
+}
+
+#TendinaAree {
+  position: absolute;
+  visibility: hidden;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+#TendinaAree>span:hover {
+  color: var(--arancio);
+  cursor: pointer;
+}
+
+#TendinaAttività {
+  position: absolute;
+  visibility: hidden;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+#TendinaAttività>span:hover {
+  color: var(--arancio);
+  cursor: pointer;
+}
+
+.listaAree {
+  display: block;
+  margin-block: 5px;
+  margin-inline: 5px;
+  font-size: 0.8em;
+}
+
+.listaAttività {
+  display: block;
+  margin-block: 5px;
+  margin-inline: 5px;
+  font-size: 0.8em;
+}
+
+.dropdown {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.dropdown::after {
+  content: "⤵";
+}
+
+.dropdown:hover {
+  color: var(--arancio);
+}
