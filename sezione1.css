@@ -3,18 +3,17 @@
   background-size: contain;
 }
 #Sezione1 {
-  background: linear-gradient(180deg, transparent 0%, rgba(48, 52, 67, 1) 40%, rgba(30, 34, 50, 1) 100%);
+  background: linear-gradient(180deg, transparent 0%, var(--blu-scuro) 60%, var(--blu-scuro) 100%);
   background-size: contain;
   background-repeat: no-repeat;
   width: 100cqi;
-  height: 200dvh;
   z-index: 0;
 }
 
 #Vetrina1 {
   z-index: 0;
   block-size: 100%;
-  color: white;
+  color: var(--bianco);
 }
 
 #Vetrina1 h1{
@@ -46,4 +45,16 @@
 #Vetrina1 #Eventi span:nth-child(odd):hover{
   color: var(--arancio);
   cursor: pointer;
+}
+
+#Testo{
+  margin-inline-start: 20cqi;
+  margin-block-start: 200px;
+  inline-size: 40cqi;
+}
+
+#Testo span{
+  display: block;
+  color: var(--arancio);
+  margin-block-start: 30px;
 }

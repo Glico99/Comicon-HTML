@@ -25,23 +25,29 @@
   fill: var(--bianco);
 }
 
-#NavBar div:nth-child(2) {
+#NavBar>div:nth-child(2) {
   margin-inline-start: 40cqi;
   display: flex;
   align-items: center;
 }
 
-#NavBar div:nth-child(2)>* {
+#NavBar>div:nth-child(2)>* {
   display: inline;
   margin-inline: 1cqi;
   font-size: 1em;
+  border: 2px solid transparent;
+  transition: border 1s ease-out;
+}
+
+#NavBar>div:nth-child(2)>*:hover {
+  border-bottom: 2px solid var(--arancio);
 }
 
 #Aree{
   font-size: 1em;
 }
 
-#Attività{
+#Attivita{
   font-size: 1em;
 }
 
@@ -57,14 +63,15 @@
   cursor: pointer;
 }
 
-#TendinaAttività {
+#TendinaAttivita {
   position: absolute;
   visibility: hidden;
   background-color: whitesmoke;
   text-align: center;
+  text-decoration: none;
 }
 
-#TendinaAttività>span:hover {
+#TendinaAttivita>span:hover {
   color: var(--arancio);
   cursor: pointer;
 }
@@ -76,7 +83,7 @@
   font-size: 0.8em;
 }
 
-.listaAttività {
+.listaAttivita {
   display: block;
   margin-block: 5px;
   margin-inline: 5px;

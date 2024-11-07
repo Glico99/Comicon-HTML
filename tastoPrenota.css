@@ -13,5 +13,5 @@
 }
 
 #NavBar #Prenota:hover {
-  border: 2px solid var(--arancio);
+  border: 3px solid var(--arancio);
 }
