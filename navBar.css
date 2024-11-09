@@ -7,7 +7,6 @@
   align-items: center;
   position: sticky;
   top: 0;
-  z-index: 1;
   font-size: 1em;
 }
 
@@ -52,8 +51,10 @@
 }
 
 #TendinaAree {
-  position: absolute;
   visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-out;
+  position: absolute;
   background-color: whitesmoke;
   text-align: center;
 }
@@ -64,8 +65,11 @@
 }
 
 #TendinaAttivita {
-  position: absolute;
+  display: block;
   visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-out;
+  position: absolute;
   background-color: whitesmoke;
   text-align: center;
   text-decoration: none;
@@ -98,7 +102,7 @@
 }
 
 .dropdown::after {
-  content: "⤵";
+  content: "⮟";
 }
 
 .dropdown:hover {

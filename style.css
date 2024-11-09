@@ -1,6 +1,7 @@
 @import url("./tastoPrenota.css");
 @import url("./navBar.css");
 @import url("./sezione1.css");
+@import url("./mobile.css");
 
 :root{
   --blu-scuro: rgb(30, 34, 50);
