@@ -2,12 +2,13 @@
 @import url("./navBar.css");
 @import url("./sezione1.css");
 @import url("./sezione2.css");
+@import url("./sezione3.css");
 @import url("./mobile.css");
 
 :root{
   --blu-scuro: rgb(30, 34, 50);
   --arancio: rgb(217, 123, 89);
-  --bianco: rgb(255, 255, 255);
+  --bianco: rgb(245, 245, 245);
   --rosso-citta: rgb(255, 10, 83);
   --blu-citta: rgb(0, 133, 255);
 }
