@@ -35,12 +35,19 @@
 #Vetrina1 #Eventi span:nth-child(odd){
   color: var(--blu-scuro);
   font-weight: 700;
+  font-size: 0.7em;
+  text-transform: uppercase;
   -webkit-text-stroke: 1px var(--arancio);
   transition: color 0.7s;
 }
 #Vetrina1 #Eventi span:nth-child(odd):hover{
   color: var(--arancio);
   cursor: pointer;
+}
+
+#Vetrina1 #Eventi span:nth-child(even){
+  font-size: 1em;
+  vertical-align: middle;
 }
 
 #Testo{

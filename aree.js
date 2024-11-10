@@ -1,6 +1,7 @@
 const items = ["Fumetto", "Videogame", "Cinema & Serie TV", "Gioco", "Asian", "Musica", "Cosplay", "Kids", "LARP-Neverland", "Pizzacon"];
 const lista = document.querySelectorAll(".listaAree");
 const tendina = document.getElementById("TendinaAree");
+tendina.style.visibility = "hidden";
 const aree = document.getElementById("Aree");
 
 for (let i = 0; i < lista.length; i++) {

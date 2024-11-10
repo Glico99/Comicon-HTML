@@ -1,5 +1,6 @@
 #Sezione2{
   margin-inline: 20cqi;
+  margin-block-start: 3cqi;
   padding: 0;
   border-inline: 1px solid var(--bianco);
 }
@@ -10,7 +11,6 @@
 }
 
 .sfondoLuoghi{
-  background-image: linear-gradient(to bottom, transparent, var(--arancio));
   inline-size: 50%;
   text-align: justify;
 }
@@ -30,9 +30,125 @@
 .sfondoLuoghi p span:nth-of-type(2){
   display: block;
   font-size: 2em;
+  font-weight: 900;
+}
+
+.sfondoLuoghi p span:nth-of-type(3){
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+.sfondoLuoghi p:nth-of-type(2){
+  inline-size: 8cqi;
+  text-align: left;
   font-weight: 400;
+}
+
+.sfondoLuoghi button{
+  display: block;
+  inline-size: 10cqi;
+  block-size: 3cqi;
+  font-weight: 900;
+  border: 3px solid black;
+  transition: border 0.2s;
+}
+
+.sfondoLuoghi a{
+  color: var(--bianco);
+  display: inline-block;
+  margin-block: 1cqi;
+  font-weight: 900;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sfondoLuoghi svg{
+  display: inline-block;
+  inline-size: 20px;
+  margin: 0;
+  vertical-align: middle;
+  fill: var(--arancio);
 }
 
 #Napoli{
   border-right: 1px solid var(--bianco);
+  background-image: linear-gradient(to bottom, var(--blu-scuro), transparent), url("./media/ironman.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -80px;
+}
+
+#Napoli p span:nth-of-type(2){
+  color: var(--rosso-citta)
+}
+
+#Napoli button{
+  background-color: var(--rosso-citta);
+}
+
+#Napoli button:hover {
+  border: 3px solid transparent;
+}
+
+#Bergamo{
+  background-image: linear-gradient(to bottom, var(--blu-scuro), transparent), url("./media/capamerica.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+#Bergamo p span:nth-of-type(2){
+  color: var(--blu-citta);
+}
+
+#Bergamo button{
+  background-color: var(--blu-citta);
+}
+
+#Bergamo button:hover {
+  border: 3px solid transparent;
+}
+
+#Numeri>p{
+  text-align: center;
+  font-size: 2em;
+  font-weight: 900;
+  color: transparent;
+  -webkit-text-stroke: 1.5px var(--arancio);
+}
+
+#Numeri>p span{
+  color: white;
+  -webkit-text-stroke: transparent;
+}
+
+#Statistiche {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#Statistiche>div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  inline-size: 25%;
+  block-size: 4cqi;
+}
+
+#Statistiche>div:not(div:nth-of-type(4)){
+  border-inline-end: 1px solid var(--bianco);
+}
+
+#Statistiche div>span:nth-of-type(1){
+  font-size: 3em;
+  color: white;
+  font-weight: 900;
+}
+
+#Statistiche div>span:nth-of-type(2){
+  font-size: 1.5em;
+  font-weight: 400;
+  text-decoration: underline;
+  color: var(--arancio);
 }

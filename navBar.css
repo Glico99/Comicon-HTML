@@ -8,6 +8,7 @@
   position: sticky;
   top: 0;
   font-size: 1em;
+  transition: all .5s;
 }
 
 #NavBar a {
@@ -25,7 +26,7 @@
 }
 
 #NavBar>div:nth-child(2) {
-  margin-inline-start: 40cqi;
+  margin-inline-start: 35cqi;
   display: flex;
   align-items: center;
 }
@@ -51,7 +52,7 @@
 }
 
 #TendinaAree {
-  visibility: hidden;
+  inline-size: 10cqi;
   opacity: 0;
   transition: all 0.5s ease-out;
   position: absolute;
@@ -66,7 +67,7 @@
 
 #TendinaAttivita {
   display: block;
-  visibility: hidden;
+  inline-size: 10cqi;
   opacity: 0;
   transition: all 0.5s ease-out;
   position: absolute;

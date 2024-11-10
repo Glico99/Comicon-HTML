@@ -1,6 +1,7 @@
 const items1 = ["Mostre","Festival","Editoria","Agenzia artisti"];
 const lista2 = document.querySelectorAll(".listaAttivita");
 const tendina2 = document.getElementById("TendinaAttivita");
+tendina2.style.visibility = "hidden";
 const attivita = document.getElementById("Attivita");
 
 for (let i = 0; i < lista2.length; i++) {
