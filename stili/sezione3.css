@@ -1,0 +1,30 @@
+#Sezione3{
+  text-align: center;
+  margin-block: 7cqi;
+  text-transform: uppercase;
+  inline-size: 95%;
+}
+
+#Sezione3 p{
+  font-size: 2em;
+  font-weight: 900;
+  color: var(--arancio);
+  margin: 1cqi;
+}
+
+#Sezione3 a{
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 900;
+  text-decoration: none;
+  -webkit-text-stroke: 1px var(--bianco);
+  color: transparent;
+  margin-inline: 1cqi;
+  transition: all .7s;
+}
+
+#Sezione3 a:hover{
+  color: var(--arancio);
+  cursor: pointer;
+  -webkit-text-stroke: 1px var(--arancio);
+}
