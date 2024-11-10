@@ -102,7 +102,7 @@
 }
 
 .dropdown::after {
-  content: "⮟";
+  content: "🞃";
 }
 
 .dropdown:hover {
