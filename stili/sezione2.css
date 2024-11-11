@@ -53,6 +53,11 @@
   transition: border 0.2s;
 }
 
+.sfondoLuoghi button:hover{
+  border: 3px solid transparent;
+  cursor: pointer;
+}
+
 .sfondoLuoghi a{
   color: var(--bianco);
   display: inline-block;
@@ -86,10 +91,6 @@
   background-color: var(--rosso-citta);
 }
 
-#Napoli button:hover {
-  border: 3px solid transparent;
-}
-
 #Bergamo{
   background-image: linear-gradient(to bottom, var(--blu-scuro), transparent), url("../media/capamerica.jpg");
   background-position: top;
@@ -102,10 +103,6 @@
 
 #Bergamo button{
   background-color: var(--blu-citta);
-}
-
-#Bergamo button:hover {
-  border: 3px solid transparent;
 }
 
 #Numeri>p{
