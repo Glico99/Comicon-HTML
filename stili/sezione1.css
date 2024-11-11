@@ -1,7 +1,4 @@
 #Sezione1 {
-  background: linear-gradient(180deg, transparent 0%, var(--blu-scuro) 60%, var(--blu-scuro) 100%);
-  background-size: contain;
-  background-repeat: no-repeat;
   width: 100cqi;
   z-index: 0;
 }
