@@ -3,6 +3,8 @@
 @import url("./sezione1.css");
 @import url("./sezione2.css");
 @import url("./sezione3.css");
+@import url("./sezione4.css");
+@import url("./sezione5.css");
 @import url("./mobile.css");
 
 :root{
@@ -17,9 +19,12 @@ body {
   margin: 0;
   padding: 0;
   width: 100dvw;
-  height: 500dvh;
   font-family: sans-serif;
   font-size: 22px;
   background-image: linear-gradient(180deg, transparent 0%, var(--blu-scuro) 20%, var(--blu-scuro) 100%), url("../media/batman.jpg");
   background-size: contain;
+}
+
+::selection{
+  background-color: var(--arancio);
 }
