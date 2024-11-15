@@ -1,11 +1,9 @@
 #Sezione1 {
-  width: 100cqi;
   z-index: 0;
 }
 
 #Vetrina1 {
   z-index: 0;
-  block-size: 100%;
   color: var(--bianco);
 }
 
@@ -31,10 +29,11 @@
 
 #Vetrina1 #Eventi span:nth-child(odd){
   color: var(--blu-scuro);
-  font-weight: 700;
-  font-size: 0.7em;
+  font-weight: 900;
+  font-size: 0.9em;
   text-transform: uppercase;
-  -webkit-text-stroke: 1px var(--arancio);
+  -webkit-text-stroke: 3px var(--arancio);
+  paint-order: stroke fill;
   transition: color 0.7s;
 }
 #Vetrina1 #Eventi span:nth-child(odd):hover{
@@ -51,7 +50,8 @@
   display: block;
   margin-inline-start: 20cqi;
   margin-block-start: 200px;
-  inline-size: 40cqi;
+  inline-size: 55cqi;
+  font-size: 1.4em;
 }
 
 #Testo span{

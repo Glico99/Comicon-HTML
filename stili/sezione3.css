@@ -18,6 +18,7 @@
   font-weight: 900;
   text-decoration: none;
   -webkit-text-stroke: 1px var(--bianco);
+  paint-order: stroke fill;
   color: transparent;
   margin-inline: 1cqi;
   transition: all .7s;
@@ -27,4 +28,5 @@
   color: var(--arancio);
   cursor: pointer;
   -webkit-text-stroke: 1px var(--arancio);
+  paint-order: stroke fill;
 }

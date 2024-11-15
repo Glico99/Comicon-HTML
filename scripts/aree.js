@@ -12,6 +12,7 @@ aree.addEventListener("click", dropdownAree);
 
 function dropdownAree(event) {
   if (tendina.style.visibility === "hidden") {
+    tendina.style.display = "block"
     tendina.style.visibility = "visible";
     tendina.style.opacity = "1"
   } else {

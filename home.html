@@ -6,6 +6,11 @@
   <link rel="stylesheet" href="./stili/style.css">
   <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
   <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Ultra&display=swap"
+    rel="stylesheet">
   <title>Comicon 2025</title>
 </head>
 
@@ -22,7 +27,7 @@
     </svg>
     <div>
       <div>
-        <button class="dropdown" id="Aree">Aree</button>
+        <a href="#" class="dropdown" id="Aree">Aree</a>
         <nav id="TendinaAree">
           <span class="listaAree">x</span>
           <span class="listaAree">x</span>
@@ -37,7 +42,7 @@
         </nav>
       </div>
       <div>
-        <button class="dropdown" id="Attivita">Attività</button>
+        <a href="#" class="dropdown" id="Attivita">Attività</a>
         <nav id="TendinaAttivita">
           <span class="listaAttivita">x</span>
           <span class="listaAttivita">x</span>
@@ -48,8 +53,8 @@
       <a href="#">News ed Eventi</a>
       <a href="#">Chi siamo</a>
       <a href="#">Store</a>
+      <a href="#" id="Prenota">Acquista Biglietti</a>
     </div>
-    <a href="#" id="Prenota">Acquista Biglietti</a>
   </nav>
   <div id="Sezione1">
     <div id="Vetrina1">
@@ -266,9 +271,77 @@
     </div>
   </div>
 
-
+  <div id="Sezione6">
+    <div id="Entraincontatto">
+      <svg version="1.1" id="icona_x5F_mondo" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 71 80"
+        style="enable-background:new 0 0 71 80;" xml:space="preserve">
+        <path id="linea"
+          d="M57.1,75h-45c-0.7,0-1.3,0.3-1.8,0.7c-0.5,0.5-0.7,1.1-0.7,1.8c0,0.7,0.3,1.3,0.7,1.8c0.5,0.5,1.1,0.7,1.8,0.7 h45c0.7,0,1.3-0.3,1.8-0.7c0.5-0.5,0.7-1.1,0.7-1.8c0-0.7-0.3-1.3-0.7-1.8C58.4,75.3,57.7,75,57.1,75z">
+        </path>
+        <path id="mondo"
+          d="M35,0c-9.3,0-18.2,3.7-24.7,10.3C3.7,16.8,0,25.7,0,35c0,1.1,0,2.2,0.2,3.3c0.6,6.8,3.2,13.2,7.5,18.5 c4.2,5.3,9.9,9.3,16.3,11.4s13.4,2.4,19.9,0.6c6.6-1.7,12.5-5.3,17-10.3c4.6-5,7.6-11.3,8.6-17.9c1.1-6.7,0.2-13.6-2.5-19.8 c-2.7-6.2-7.2-11.5-12.9-15.2C48.4,2,41.8,0,35,0z M35,5c7.9,0,15.5,3.1,21.1,8.7v2.5c-9.9-3.4-20.6-3.4-30.5,0.1 c-0.8-0.8-1.8-1.3-2.9-1.5h-0.6c-0.3-1-0.6-2.1-0.8-3.2c-0.2-1.1-0.4-2-0.5-3C25.2,6.2,30.1,5,35,5z M27.5,19.7 c9.1-3,18.9-2.9,27.9,0.3c-1.2,6.4-3.9,12.3-7.8,17.5c-1.1-0.5-2.3-0.6-3.5-0.3c-1.2,0.3-2.2,0.9-3,1.7c-0.9-0.5-1.7-1-2.5-1.6 c-5-3.4-9.3-7.8-12.3-13.1c0.5-0.6,0.9-1.3,1.1-2.1s0.2-1.6,0.1-2.3L27.5,19.7z M17.5,10.7c0,0.5,0.1,1.1,0.2,1.6 c0.2,1.1,0.5,2.2,0.8,3.2c-1,0.6-1.7,1.4-2.2,2.4c-0.5,1-0.7,2.1-0.5,3.2c-3.9,2.6-7.5,5.7-10.4,9.4c0.6-4,2-7.8,4.1-11.2 C11.5,16,14.3,13,17.5,10.7L17.5,10.7z M17.5,49.9c-1,0.3-1.8,0.9-2.5,1.7c-0.7,0.8-1.1,1.7-1.3,2.7H12c-4-4.8-6.5-10.8-6.9-17 l0.3-0.5c3.1-4.9,7.2-9,12-12.2c0.7,0.8,1.6,1.3,2.6,1.6c1,0.3,2.1,0.3,3.1,0c3.3,5.7,7.9,10.5,13.4,14.1c1,0.7,2.1,1.3,3.1,1.9 c-0.1,1,0.1,1.9,0.4,2.8c-4.6,3.6-9.9,6.3-15.5,7.8c-0.7-1.2-1.7-2.2-3-2.7C20.3,49.6,18.8,49.5,17.5,49.9L17.5,49.9z M35,64.9 c-5.1,0-10.1-1.3-14.5-3.8l0.7-0.2c1-0.3,1.9-0.9,2.6-1.7c0.7-0.8,1.2-1.7,1.4-2.8c6.4-1.6,12.4-4.6,17.5-8.7c1.2,0.7,2.7,0.9,4,0.7 c1.4-0.3,2.6-1.1,3.5-2.2c3.5,0.9,7.2,1.4,10.8,1.4h1.3c-2.4,5.2-6.3,9.6-11.1,12.6C46.3,63.4,40.7,65,35,64.9L35,64.9z M51.3,42.7 c0-1-0.3-2.1-0.8-3c4.2-5.4,7.1-11.7,8.5-18.4c1.2,0.6,2.5,1.2,3.7,1.9c2.7,6.5,3.1,13.8,1,20.5C59.5,44.1,55.3,43.7,51.3,42.7 L51.3,42.7z">
+        </path>
+      </svg>
+      <div>
+        <p>Non è abbastanza? Condividi con noi la tua idea per COMICON.</p>
+        <a href="#">Entra in contatto</a>
+      </div>
+    </div>
+    <div id="Store">
+      <img src="./media/fullmetalalchemist.png" alt="">
+      <section>
+        <h1>Comicon</h1>
+        <h1>Store</h1>
+        <p>Fumetti, cataloghi, portfolio d'autore, edizioni limitate e molto altro</p>
+        <a href="#">Scopri di più
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+            y="0px" viewBox="0 0 16 22" style="enable-background:new 0 0 16 22;" xml:space="preserve">
+            <path
+              d="M6.9,3.5l0.7-0.8c0.3-0.3,0.8-0.3,1.1,0l6.5,6.7c0.3,0.3,0.3,0.8,0,1.2l-6.5,6.7 c-0.3,0.3-0.8,0.3-1.1,0l-0.7-0.8c-0.3-0.3-0.3-0.9,0-1.2l4-3.9H1.3c-0.4,0-0.8-0.4-0.8-0.8V9.5c0-0.5,0.4-0.8,0.8-0.8h9.6l-4-3.9	C6.6,4.4,6.6,3.8,6.9,3.5z">
+            </path>
+          </svg>
+        </a>
+      </section>
+    </div>
   </div>
 
+  <div id="Sezione7">
+    <div class="footerLinks">
+      <span>Fumetto</span>
+      <span>Videogame</span>
+      <span>Cinema e serie tv</span>
+      <span>Gioco</span>
+      <span>Asian</span>
+      <span>Musica</span>
+      <span>Cosplay</span>
+      <span>Kids</span>
+      <span>Larp - neverland</span>
+      <span>Pizzacon</span>
+    </div>
+    <div class="footerContatti">
+      <span>News ed event</span>
+      <span>Chi siamo</span>
+      <span>Store</span>
+      <span>Press</span>
+      <span>Contatti</span>
+      <span>Archivio</span>
+    </div>
+    <div class="footerPrenotazione">
+      <p><span>Prenota il tuo ticket</span>,<br>
+        oppure <span>entra in contatto</span> con noi per collaborare insieme.</p>
+      <p>Ah, non dimenticare di <span>iscriverti alla newsletter!</span></p>
+    </div>
+  </div>
+
+  <div id="Sezione8">
+    <p>Il sistema di siti, e-commerce e gestionali di COMICON è stato realizzato in collaborazione con Studiolabo e
+      Procne, e
+      con il supporto di SIMEST (Gruppo CDP).</p>
+    <p>© COPYRIGHT COMICON 2022 Tutti i diritti riservati - VISIONA SCARL VICO SANTA MARIA A CAPPELLA VECCHIA 11, 80121
+      NAPOLI
+      NA - PI 06336071219 - COMICON - privacy policy</p>
+  </div>
 </body>
 <script src="./scripts/aree.js"></script>
 <script src="./scripts/attivita.js"></script>
