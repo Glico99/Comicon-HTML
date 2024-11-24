@@ -1,0 +1,83 @@
+#Entraincontatto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  block-size: 12cqi;
+}
+
+#Entraincontatto svg {
+  block-size: 100px;
+  margin-inline-end: 4cqi;
+  fill: var(--arancio);
+}
+
+#Entraincontatto p {
+  color: var(--bianco);
+  font-weight: 900;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+#Entraincontatto a {
+  color: var(--arancio);
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+#Store {
+  background-color: var(--arancio);
+  background-image: url(../media/bg-store-istituzionale.svg);
+  background-size: cover;
+  background-position: right;
+  block-size: 30cqi;
+}
+
+#Store img {
+  position: sticky;
+  block-size: 500px;
+  float: right;
+  padding-block-start: 4cqi;
+}
+
+#Store section {
+  display: flex;
+  flex-direction: column;
+  margin-inline-start: 4cqi;
+  padding-block-start: 4cqi;
+}
+
+#Store h1:first-of-type {
+  color: var(--bianco);
+  font-weight: 900;
+  font-size: 4em;
+  margin:0;
+  padding: 0;
+}
+
+#Store h1:nth-of-type(2) {
+  color: var(--blu-scuro);
+  -webkit-text-stroke: 5px solid var(--blu-scuro);
+  paint-order: stroke fill;
+  font-weight: 900;
+  font-size: 3em;
+  margin-block-start: -20px;
+  padding: 0;
+}
+
+#Store p{
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+#Store a{
+  color: var(--bianco);
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+#Store section svg {
+  block-size: 20px;
+  inline-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
