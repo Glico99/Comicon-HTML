@@ -17,9 +17,9 @@
   font-size: 2.5em;
   font-weight: 900;
   text-decoration: none;
-  -webkit-text-stroke: 1px var(--bianco);
+  -webkit-text-stroke: 3px var(--bianco);
   paint-order: stroke fill;
-  color: transparent;
+  color: var(--blu-scuro);
   margin-inline: 1cqi;
   transition: all .7s;
 }

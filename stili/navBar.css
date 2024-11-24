@@ -34,16 +34,16 @@
   border-bottom: 2px solid var(--arancio);
 }
 
-#NavBar a {
+#NavBar a,span {
   color: var(--bianco);
   text-decoration: none;
 }
 
-#NavBar a:hover {
+#NavBar a:hover,span:hover {
   color: var(--arancio);
 }
 
-#TendinaAree {
+.tendine {
   inline-size: 10cqi;
   opacity: 0;
   transition: all 0.2s ease-out;
@@ -52,21 +52,7 @@
   text-align: justify;
 }
 
-#TendinaAree>span:hover {
-  color: var(--arancio);
-  cursor: pointer;
-}
-
-#TendinaAttivita {
-  inline-size: 10cqi;
-  opacity: 0;
-  transition: all 0.2s ease-out;
-  position: absolute;
-  background-color: var(--bianco);
-  text-align: justify;
-}
-
-#TendinaAttivita>span:hover {
+.tendine>span:hover {
   color: var(--arancio);
   cursor: pointer;
 }

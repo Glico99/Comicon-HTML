@@ -34,7 +34,7 @@
   text-transform: uppercase;
   -webkit-text-stroke: 3px var(--arancio);
   paint-order: stroke fill;
-  transition: color 0.7s;
+  transition: color .7s;
 }
 #Vetrina1 #Eventi span:nth-child(odd):hover{
   color: var(--arancio);
